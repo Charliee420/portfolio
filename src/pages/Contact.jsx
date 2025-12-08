@@ -15,7 +15,7 @@ const Contact = () => {
                     <h2 className="text-4xl font-bold text-white mb-4">Let's Connect</h2>
                     <div className="h-1 w-20 bg-primary mx-auto rounded-full mb-6"></div>
                     <p className="text-gray-400">
-                        Whether it’s a new project, a collaboration, or just to say hi — I’d love to hear from you!
+                        Whether it’s a new project, a collaboration, or just to say hi!
                     </p>
                 </motion.div>
 
