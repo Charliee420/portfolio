@@ -74,6 +74,7 @@ const About = () => {
                             <h4 className="text-xl font-bold text-white">Secondary School (10th Grade)</h4>
                             <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-semibold">2022</span>
                         </div>
+                        <p className="text-gray-500">Jawahar Navodaya Vidyalaya Yadgir, Hothpet</p>
                         <p className="text-gray-500">75% Percentage</p>
                     </motion.div>
                 </div>
