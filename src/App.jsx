@@ -11,10 +11,12 @@ import Blog from './pages/Blog';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import ScrollProgress from './components/ScrollProgress';
 
 function App() {
   return (
     <Router>
+      <ScrollProgress />
       <ScrollToTop />
       <Layout>
         <Routes>

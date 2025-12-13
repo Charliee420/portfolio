@@ -16,7 +16,7 @@ const skillsData = [
     },
     {
         category: "Soft Skills",
-        skills: ["Problem Solving", "Teamwork", "Communication", "Time Management", "Adaptability","crazy Creative "]
+        skills: ["Problem Solving", "Teamwork", "Communication", "Time Management", "Adaptability", "crazy Creative "]
     }
 ];
 
