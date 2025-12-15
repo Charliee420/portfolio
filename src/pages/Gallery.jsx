@@ -50,10 +50,13 @@ const categories = ["All", "Photographs", "Achievements", "Crazy Stuff"];
 
 const Gallery = () => {
     const [activeCategory, setActiveCategory] = useState("All");
+    const [images] = useState(allImages);
+
+    // Removed local storage effect as Admin Panel is deactivated.
 
     const filteredImages = activeCategory === "All"
-        ? allImages
-        : allImages.filter(img => img.category === activeCategory);
+        ? images
+        : images.filter(img => img.category === activeCategory);
 
     return (
         <div className="min-h-screen py-10 px-4">
@@ -74,8 +77,8 @@ const Gallery = () => {
                                 key={cat}
                                 onClick={() => setActiveCategory(cat)}
                                 className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${activeCategory === cat
-                                        ? 'bg-primary text-white shadow-lg shadow-primary/25'
-                                        : 'bg-card text-gray-400 hover:bg-white/5 hover:text-white'
+                                    ? 'bg-primary text-white shadow-lg shadow-primary/25'
+                                    : 'bg-card text-gray-400 hover:bg-white/5 hover:text-white'
                                     }`}
                             >
                                 {cat}

@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaFileDownload } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import profileImg from '../assets/profilepic.png';
 
 const Home = () => {
     return (
@@ -67,7 +68,7 @@ const Home = () => {
                         <a href="#" className="hover:text-pink-500 transition-colors hover:scale-110 transform"><FaInstagram /></a>
                         <a href="#" className="hover:text-sky-400 transition-colors hover:scale-110 transform"><FaTwitter /></a>
                     </div>
-                    
+
                 </motion.div>
 
                 {/* Right Image */}
@@ -80,8 +81,8 @@ const Home = () => {
                     <div className="relative w-64 h-64 md:w-96 md:h-96">
                         <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
                         <img
-                            src="https://picsum.photos/seed/kunjdesai/500/500"
-                            alt="Kunj Desai"
+                            src={profileImg}
+                            alt="Hemanth"
                             className="relative w-full h-full object-cover rounded-full border-4 border-primary/50 shadow-2xl hover:scale-105 transition-transform duration-500"
                         />
                     </div>

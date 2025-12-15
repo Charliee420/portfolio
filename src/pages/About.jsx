@@ -22,7 +22,7 @@ const About = () => {
                     className="bg-card p-8 rounded-2xl shadow-xl border border-white/5 mb-12"
                 >
                     <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                        I’m a B.Tech first-year student with a deep passion for technology, problem-solving, and discipline.
+                        I’m a B.Tech second-year student with a deep passion for technology, problem-solving, and discipline.
                         Along with my academics, I’m preparing for the defence sector because serving the nation has always been one of my biggest dreams
                     </p>
                     <p className="text-gray-300 text-lg leading-relaxed">
