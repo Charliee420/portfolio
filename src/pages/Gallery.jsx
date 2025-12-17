@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
+import meImg from '../assets/Me/me.jpg';
+import outsideRoomImg from '../assets/Photographs/outside_room.jpg';
+// import skydivingImg from '../assets/Crazy Stuff/skydiving.jpg';
+import spiderImg from '../assets/Crazy_Stuff/Spider_Home.jpg';
+import CrabImg from '../assets/Crazy_Stuff/BRO_01.jpg';
+import Gwagon1IMG from '../assets/Crazy_stuff/G-wagon-1.jpg';
+import GwagonIMG from '../assets/Crazy_stuff/G-wagon.jpg';
+
 const allImages = [
     {
         id: 1,
-        src: "https://picsum.photos/seed/photo1/800/600",
+        src: outsideRoomImg,
         category: "Photographs",
-        title: "Nature Shot"
+        title: "Outside Our Home"
     },
     {
         id: 2,
@@ -16,9 +24,15 @@ const allImages = [
     },
     {
         id: 3,
-        src: "https://picsum.photos/seed/crazy1/800/600",
+        src: GwagonIMG,
         category: "Crazy Stuff",
-        title: "Skydiving"
+        title: "CAR COLLECTION"
+    },
+       {
+        id: 12,
+        src: Gwagon1IMG,
+        category: "Crazy Stuff",
+        title: "CAR COLLECTION"
     },
     {
         id: 4,
@@ -44,9 +58,33 @@ const allImages = [
         category: "Photographs",
         title: "Mountain View"
     },
+    {
+        id: 8,
+        src: meImg,
+        category: "ME",
+        title: "It's Me"
+    },
+    {
+        id: 9,
+        src: spiderImg,
+        category: "Crazy Stuff",
+        title: "Spider Home"
+    },
+    {
+        id: 10,
+        src: CrabImg,
+        category: "Crazy Stuff",
+        title: "Crab Home"
+    },
+    {
+        id: 11,
+        src: "https://picsum.photos/seed/photo4/800/600",
+        category: "Photographs",
+        title: "Beach View"
+    },
 ];
 
-const categories = ["All", "Photographs", "Achievements", "Crazy Stuff"];
+const categories = ["All", "Photographs", "Achievements", "Crazy Stuff", "Videos", "ME"];
 
 const Gallery = () => {
     const [activeCategory, setActiveCategory] = useState("All");
