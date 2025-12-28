@@ -12,12 +12,12 @@ const projectsData = [
         image: "https://picsum.photos/seed/portfolio1/600/400"
     },
     {
-        title: "E-Commerce Platform",
-        description: "A fully functional e-commerce app with cart, checkout, and user authentication using MERN stack.",
-        tags: ["MongoDB", "Express", "React", "Node.js"],
-        github: "#",
-        demo: "#",
-        image: "https://picsum.photos/seed/ecommerce/600/400"
+        title: "LuxeShop - Premium E-Commerce",
+        description: "A modern e-commerce platform featuring product catalog, shopping cart, user authentication, and responsive design with premium aesthetics.",
+        tags: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+        github: "https://github.com/Charliee420/E-COM-Sample",
+        demo: "https://charliee420.github.io/E-COM-Sample/",
+        image: "https://picsum.photos/seed/luxeshop/600/400"
     },
     {
         title: "Chat Application",
